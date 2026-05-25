@@ -43,7 +43,7 @@ public class OpenAIService {
             Map<String, Object> requestBody = Map.of(
                     "model", "gpt-4o-mini",
                     "messages", List.of(
-                            Map.of("role", "system", "content", "You are a helpful backend assistant"),
+                            Map.of("role", "system", "content", "You are a senior Java backend engineer. Always give clear, concise, structured responses with examples."),
                             Map.of("role", "user", "content", userInput)
                     ),
                     "temperature", 0.3
